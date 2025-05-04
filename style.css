@@ -1,0 +1,59 @@
+/*style.css*/
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #051700 ;
+    color: white;
+    margin: 0;
+}
+.menu-container {
+    position: relative;
+    background-color: #222;
+    padding: 10px;
+  }
+  
+  .mi-menu {
+    display: none;
+  }
+  
+  .menu-label {
+    display: inline-block;
+    width: 40px;
+    height: 30px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .menu-label span {
+    display: block;
+    height: 4px;
+    margin: 4px 0;
+    background: black;
+    border-radius: 2px;
+  }
+  
+  .menu-options {
+    display: none;
+    background-color: #333;
+    margin-top: 10px;
+  }
+  
+  .menu-options a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .menu-options a:hover {
+    background-color: #555;
+  }
+  
+  .menu-toggle:checked + .menu-label + .menu-options {
+    display: block;
+  }
+  main{
+    font-size: 20px;
+  }
+  
